@@ -75,3 +75,17 @@ body {
   background: #fff;
   color: #333;
 }
+
+#page-1 h1 {
+  animation: animate1 3s forwards;
+}
+
+@keyframes animate1 {
+  0% {
+    top: -10000000;
+  }
+
+  100% {
+    top: 10000000;
+  }
+}
